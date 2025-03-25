@@ -1,0 +1,109 @@
+* {
+
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+
+:root {
+
+/* Content */
+--content-primary: #FFFFFF;
+--content-secondary: #C7C9CC;
+--content-tertiary: #D9D9D9;
+--content-brand: #C58DE7;
+--color-inverse: #030203;
+
+/* Background */
+
+--background-primary: #020202;
+--background-secondary: #111012;
+--background-tertiary: #24222E;
+--background-brand: #C58DE7;
+--background-gray: #3D3D3D;
+
+
+/* Accent */
+
+--accent-pink: #D586E0;
+--accent-blue: #91A1FA;
+--accent-green: #77C0A;
+--accent-lime: #D1DC97;
+--accent-red: #E9A9B3;
+
+/* Gradient */
+--gradient-border: #77C0AF 0%, #D1DC97 14.84%, #E9A9B3 32.15%, #D586E0 65.79%, #91A1FA 84.58%;
+--gradient-background: #D586E0 0%, #91A1FA 98.93%;
+--gradient-content: #C7C9CC 0%, #3D3D3D 100%;
+
+
+ /* Typography */
+:root {
+
+    
+        /* Font Family Sara */
+        --display-large-font: 'Sara';
+        --display-large-size: 72px;
+        --display-large-line-height: 130%;
+        --display-large-weight: 800; /* ExtraBold */
+        --display-large-case: uppercase;
+        
+        --display-medium-font: 'Sara';
+        --display-medium-size: 40px;
+        --display-medium-line-height: 130%;
+        --display-medium-weight: 800; /* ExtraBold */
+        --display-medium-case: uppercase;
+        
+        --display-small-font: 'Sara';
+        --display-small-size: 32px;
+        --display-small-line-height: 130%;
+        --display-small-weight: 700; /* Bold */
+        --display-small-case: uppercase;
+      
+        /* Font Family Roboto Mono */
+        --overline-font: 'Roboto Mono';
+        --overline-size: 16px;
+        --overline-line-height: 150%;
+        --overline-weight: 700; /* Bold */
+        --overline-case: uppercase;
+      
+        /* Font Family Roboto Flex */
+        --paragraph-large-font: 'Roboto Flex';
+        --paragraph-large-size: 16px;
+        --paragraph-large-line-height: 150%;
+        --paragraph-large-weight: 500; /* Medium */
+        --paragraph-large-case: none;
+        
+        --paragraph-medium-font: 'Roboto Flex';
+        --paragraph-medium-size: 14px;
+        --paragraph-medium-line-height: 150%;
+        --paragraph-medium-weight: 500; /* Medium */
+        --paragraph-medium-case: none;
+        
+        --paragraph-small-font: 'Roboto Flex';
+        --paragraph-small-size: 12px;
+        --paragraph-small-line-height: 150%;
+        --paragraph-small-weight: 500; /* Medium */
+        --paragraph-small-case: none;
+        
+        --label-medium-font: 'Roboto Flex';
+        --label-medium-size: 20px;
+        --label-medium-line-height: 150%;
+        --label-medium-weight: 700; /* Bold */
+        --label-medium-case: none;
+        
+        --label-small-font: 'Roboto Flex';
+        --label-small-size: 16px;
+        --label-small-line-height: 150%;
+        --label-small-weight: 700; /* Bold */
+        --label-small-case: none;
+      }
+
+
+ }
+
+
+
