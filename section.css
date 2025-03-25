@@ -23,4 +23,20 @@ body {
     margin: 0;
     min-height: 100vh;
     color: rgb(209, 202, 202);
+
+
+
+
+  /*  display: grid;
+          grid-template-columns: repeat(3, 1fr); /* 3 colunas de igual tamanho */
+          gap: 10px; /* Espaço entre as colunas */ */
+}
+
+.header {
+    margin-top:120px;
+    margin-left: 120px;
+    display: grid;
+    grid-template-columns: auto 1fr; /* Ícone ocupa espaço necessário, texto ocupa o resto */
+    align-items: center;
+    gap: 8px;
 }
