@@ -66,23 +66,27 @@ main {
 aside {
 
 
-    margin-left: 1250px;
-    margin-top: -270px;
+    margin-left: 1150px;
+    margin-top: -290px;
 }
 
  h3 { 
 
     font-family: "Sara", sans-serif;
+    font-size: 26px;
     
  
 
 }
 
     h4 {
-        margin-top: 5px;
-    margin-left: 70px;
+        
+    margin-left: 4px;
+    font-size: 13px;
+    margin-top: 13px;
 
     font-family: "Sara", sans-serif;
+    font-size: 13px;
         }
 
  p {
