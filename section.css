@@ -67,7 +67,7 @@ aside {
 
 
     margin-left: 1150px;
-    margin-top: -290px;
+    margin-top: -310px;
 }
 
  h3 { 
@@ -99,4 +99,122 @@ aside {
 
 .color-theme {
    color:  #C58DE7;
+}
+
+
+
+
+.container {
+    background-color: #2c2c2c;
+    border-radius: 12px;
+    padding: 30px;
+    width: 350px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #e0e0e0;
+}
+
+.input-container {
+    margin-top: 45px;
+    display: flex;
+    gap: 10px;
+}
+
+.input-box {
+    background-color: #2c2c2c;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+    padding: 10px;
+}
+
+.input-box .number {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.input-box .label {
+    font-size: 12px;
+    color: #989898;
+    text-transform: uppercase;
+}
+
+.toggle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: -566px;
+    margin-top: 30px;
+}
+
+.toggle {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+    background-color: #4a4a4a;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #4a4a4a;
+    transition: .4s;
+    border-radius: 20px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 1px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #6200ee;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+.draw-button {
+    background-color: #6200ee;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    width: 40%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.draw-button:hover {
+    background-color: #7c33ff;
 }
